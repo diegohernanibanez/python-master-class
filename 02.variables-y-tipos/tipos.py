@@ -36,7 +36,7 @@ diccionario = {
 
 print(f"{diccionario} - tipo de dato {type(diccionario)}")
 
-rango = range(9)
+rango = range(0, 6) # Recibe 2 parametros, el primero es el inicio del rango y el segundo hasta uno antes del numero
 
 print(f"{rango} - tipo de dato {type(rango)}")
 
