@@ -24,7 +24,7 @@ lista = [123, "asd", 123.5]
 
 print(f"{lista} - tipo de dato {type(lista)}")
 
-tupla = ("todos", "del", "mismo", "dato")
+tupla = ("conjunto", "datos", "no se pueden", "cambiar")
 
 print(f"{tupla} - tipo de dato {type(tupla)}")
 
