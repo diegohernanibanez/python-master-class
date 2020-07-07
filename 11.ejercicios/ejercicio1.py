@@ -10,8 +10,9 @@ lista = [4, 6, 7, 5, 8, 2, 3, 1]
 print("\n---- Lista ----")
 print(recorrerLista(lista))
 
+lista.sort()
 print("\n---- Lista ordenada ----")
-print(recorrerLista(sorted(lista)))
+print(recorrerLista(lista))
 
 print(f"\nCantidad de elementos: {len(lista)}")
 
